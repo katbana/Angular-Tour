@@ -10,7 +10,7 @@ export class ProductAlertsComponent implements OnInit {
   @Input() product!: Product;
 
   constructor() {
-    window.alert('product alerts running');
+    //window.alert('product alerts running');
   }
 
   ngOnInit(): void {}
