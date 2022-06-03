@@ -8,6 +8,7 @@ import { Product } from '../products';
 })
 export class ProductAlertsComponent {
   @Input() product: Product | undefined;
+  @Input('fullname') name = '';
   @Output() notify = new EventEmitter();
 
   constructor() {

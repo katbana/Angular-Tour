@@ -9,6 +9,7 @@ import { products } from '../products';
 })
 export class ProductListComponent {
   products = products;
+  fullname: string = 'Katleho testing';
 
   share() {
     window.alert('The product has been added!');
